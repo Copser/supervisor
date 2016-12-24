@@ -61,6 +61,7 @@ INSTALLED_APPS = (
     'django_pdb',
     'axes',
     'crispy_forms',
+    'django_twilio',
 )
 
 MIDDLEWARE_CLASSES = (
