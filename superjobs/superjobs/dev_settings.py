@@ -184,3 +184,7 @@ REST_FRAMEWORK = {
         "rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly"
     ]
 }
+
+# Twillio API configuration
+TWILLIO_ACCOUNT_SID = ""
+TWILLIO_AUTH_TOKEN = ""
