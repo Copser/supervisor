@@ -184,3 +184,11 @@ REST_FRAMEWORK = {
         "rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly"
     ]
 }
+
+# TWILIO Configuration
+# This setting is used to determinate the forgery protection used by django-twilio
+DJANGO_TWILIO_FORGERY_PROTECTION = False
+
+# This setting determine if django-twilio will run a database query comparing the incoming
+# request From attribute with any potential Caller objects in your database
+DJANGO_TWILIO_BLACKLIST_CHECK = True
