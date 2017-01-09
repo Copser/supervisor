@@ -192,7 +192,3 @@ DJANGO_TWILIO_FORGERY_PROTECTION = False
 # This setting determine if django-twilio will run a database query comparing the incoming
 # request From attribute with any potential Caller objects in your database
 DJANGO_TWILIO_BLACKLIST_CHECK = True
-# Twilio Api Key
-TWILIO_ACCOUNT_SID = "C75575312e0d97fc455236fc2a61215df"
-TWILIO_AUTH_TOKEN = "543a7601669043f0cb02eed465cd1e57"
-TWILIO_DEFAULT_CALLERID = "MGb3cb47df9732e548bc8d0fd1fa6deb1d"
