@@ -84,7 +84,7 @@ class ApplyFormModel(models.Model):
         - last name - char field
         - email - email field
         - mobile phone - integer field
-        - confirm mobile phone - we will use twillio
+        - verification_code - we will use twillio
         - city - Once city for the beginning New York City
                 but I will add choice field about which part
                 of the NYC do you live?

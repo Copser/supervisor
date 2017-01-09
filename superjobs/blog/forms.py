@@ -54,7 +54,7 @@ class ApplyForm(forms.ModelForm):
                                             """<span class="glyphicon glyphicon-earphone">
                                             </span>""",
                                             css_class="input-block-level",
-                                            placeholder="Confirm Mobile Phone Number"),
+                                            placeholder="Enter confirmation number"),
                 ),
                 layout.Field(
                     "city",
